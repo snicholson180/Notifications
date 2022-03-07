@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Content page template – {{ serviceName }} – GOV.UK Prototype Kit
+{% endblock %}
+
+{% block beforeContent %}
+  <a class="govuk-back-link" href="javascript:window.history.back()">Back</a>
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <p><b>From: </b>Repay and manage benefit money you owe {repay-manage-benefit-owed@notificiations.service.gov.uk}<br>
+        <b>Sent: </b>02 March 2022, 14:51<br>
+        <b>To: </b>Ashley Chamberlain {ashley.chamberlain@gmail.com} <br>
+        <b>Subject: </b>You owe benefit money to DWP</p>
+      <hr>
+        <p>Dear Ashley Chamberlain,<br>
+        You need to arrange to pay back money owed.</p> 
+        <h2 class="govuk-heading-m">What happens next</h2>
+          <p>You will receive a letter from DWP Debt Management. This will tell you ways you can pay us back.</p>
+      <hr>
+
+            
+          </div>
+        </p>
+    </div>
+  </div>
+
+{% endblock %}
