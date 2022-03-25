@@ -1,0 +1,67 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK page template – {{ serviceName }} – GOV.UK Prototype Kit
+{% endblock %}
+
+{% block beforeContent %}
+  <a class="govuk-back-link" href="javascript:window.history.back()">Back</a>
+{% endblock %}
+
+{% block content %}
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <p style="text-align:right;">
+      Debt Centre Trafford<br>
+      Debt Management (C)<br>
+      Mail Handling Site A<br>
+      WOLVERHAMPTON<br>
+      WV98 2DF<br>
+      <br>
+      Tel: 0800 916 0647<br>
+      Opening Times: Mon-Fri 08:00-18:00<br>
+      Fax: +44 (0) 161 916 0651<br>
+      Textphone: 0800 916 0651<br>
+      <br>
+      Account Holder: Ashley Chamberlain<br>
+      <br>
+      Reference number: DM123456<br>
+      Date: 25/03/2022<br></p>
+
+      <p>Dear Ashley Chamberlain,</p>
+
+      <p>You owe £450 to DWP Debt Management in relation to:</p>
+
+      <ul class="govuk-list govuk-list--bullet">
+        <li>Universal Credit Advance - £300</li>
+        <li>Tax Credits overpayment - £150</li>
+        </ul>
+
+      <p>We understand it may not be possible to pay this in one amount so there are flexible payment options available to you. You need to have an arrangement in place by <b>25/04/2022</b>.</p>
+
+      <p>You are in control to manage the money you ow. If you are struggling, you can contact us for help.</p>
+
+      <h3 class="govuk-heading-m">What you need to do next:</h3>
+
+      <ol class="govuk-list govuk-list--number">
+        <li>Go to https://repay-manage-benefit-owed.service.gov.uk</li>
+        <li>Enter security code xxxxx - it is important to make a note of this as you will need it each time you sign in</li>
+        <li>Enter your date of birth</li>
+      </ol>
+
+      <p>Alternatively, you can also contact us on the number above to discuss your payment options.</p>
+
+      <p>For help and support on dealing with debt and budgeting, contact:
+        <ul class="govuk-list govuk-list--bullet">
+        <li>Citizens Advice - www.citizensadvice.org.uk</li>
+        <li>StepChange Debt Charity - www.stepchange.org</li>
+        <li>Money Advice Service - www.moneyadviceservice.org.uk</li>
+        </ul>
+
+      <p>Your sincerely</p>
+      
+      <p>Operations Manager</p>
+  </div>
+</div>
+
+{% endblock %}
